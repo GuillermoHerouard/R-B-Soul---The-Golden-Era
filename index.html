@@ -1,696 +1,710 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Ces informations décrivent la page dans les recherches et les aperçus de partage. -->
+    <meta name="author" content="Gianni Nicoli et Guillermo Herouard">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#211b17">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:title" content="Soul &amp; R&amp;B — The Golden Era (1980–1999)">
+    <meta property="og:description" content="De Sade à Aaliyah, deux décennies racontées à travers les voix, les disques et un atelier d’écoute.">
+    <meta property="og:url" content="https://guillermoherouard.github.io/R-B-Soul---The-Golden-Era/">
+    <meta property="og:image" content="https://guillermoherouard.github.io/R-B-Soul---The-Golden-Era/assets/cassette.jpg">
+    <meta property="og:image:alt" content="Cassette audio translucide sur un fond chaud.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description" content="De Sade à Aaliyah, une traversée de la soul et du R&amp;B des années 1980 et 1990, avec des repères pour écouter et comparer les rythmes.">
+    <title>The Golden Era — Soul et R&amp;B des années 1980 et 1990</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="haut">
+    <a class="skip" href="#contenu">Aller à l’article</a>
 
-<head>
-    <meta charset="UTF-8">
-    <title>The Golden Era - Soul et R&B</title>
-</head>
-
-<body id="haut">
-
-    <!-- EN-TETE DU SITE -->
+    <!-- La couverture et le sommaire forment l’en-tête de la page. -->
     <header>
-
-        <h1>SOUL &amp; R&amp;B</h1>
-        <h2>The Golden Era : 1980-1999</h2>
-
-        <p>Webdocumentaire musical</p>
-
-        <p>
-            De Sade à Aaliyah, découvrez comment les voix,
-            les basses et les machines ont transformé la musique.
-        </p>
-
-        <figure>
-            <img src="assets/cassette.jpg"
-                 alt="Cassette audio illustrant la musique des années 1980 et 1990">
-            <figcaption>
-                Cassette audio, illustration du webdocumentaire.
-            </figcaption>
-        </figure>
-
-        <!-- MENU DE NAVIGATION -->
-        <nav>
-            <h2>Sommaire</h2>
-
-            <ol>
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#origines">Les origines</a></li>
-                <li><a href="#annees80">Les années 1980</a></li>
-                <li><a href="#annees90">Les années 1990</a></li>
-                <li><a href="#artistes">Les artistes</a></li>
-                <li><a href="#disques">Les albums</a></li>
-                <li><a href="#heritage">L'héritage musical</a></li>
-                <li><a href="#glossaire">Glossaire</a></li>
-                <li><a href="#sources">Sources et bibliographie</a></li>
-            </ol>
-        </nav>
-
+      <div class="mast">
+        <div class="mast-inner">
+          <a href="#haut" class="wordmark" aria-label="The Golden Era, accueil"><span lang="en">The Golden Era</span></a>
+          <div class="mast-links">
+            <a href="#atelier">Écouter</a>
+            <a href="#sommaire">Sommaire</a>
+          </div>
+        </div>
+      </div>
+      <div class="sleeve">
+        <div class="cover">
+          <div class="cover-copy">
+            <p class="period">Webdocumentaire musical</p>
+            <h1>Soul <em>&amp;</em><br>R&amp;B</h1>
+            <p class="years">1980 — 1999</p>
+            <p class="dek">De Sade à Aaliyah, comment les voix, les basses et les machines ont changé notre façon d’entendre le R&amp;B.</p>
+            <a class="cover-button" href="#intro">Commencer la lecture <span aria-hidden="true">↓</span></a>
+          </div>
+          <figure class="art">
+            <!-- Le navigateur choisit le WebP, plus léger, ou affiche le JPEG. -->
+            <picture>
+              <source srcset="assets/cassette.webp" type="image/webp">
+              <img src="assets/cassette.jpg" width="1100" height="1100" alt="Cassette audio translucide dont on distingue les deux bobines.">
+            </picture>
+            <figcaption>Cassette à bande magnétique. Illustration numérique générée pour ce webdocumentaire.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <!-- Chaque lien reprend l’identifiant d’une des neuf sections. -->
+      <nav id="sommaire" aria-labelledby="titre-sommaire">
+        <h2 id="titre-sommaire">Sommaire</h2>
+        <ol>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#origines">Aux origines</a></li>
+          <li><a href="#annees80">Les années 1980</a></li>
+          <li><a href="#annees90">Les années 1990</a></li>
+          <li><a href="#artistes">Les artistes</a></li>
+          <li><a href="#disques">Les disques</a></li>
+          <li><a href="#heritage">L’héritage</a></li>
+          <li><a href="#glossaire">Glossaire</a></li>
+          <li><a href="#sources">Sources et références</a></li>
+        </ol>
+      </nav>
     </header>
 
+    <!-- Le contenu documentaire forme un seul article. -->
+    <main id="contenu" tabindex="-1">
+      <article aria-label="La soul et le R&amp;B des années 1980 et 1990">
 
-    <!-- CONTENU PRINCIPAL DU DOCUMENTAIRE -->
-    <article>
-
-        <!-- INTRODUCTION -->
         <section id="intro">
-
-            <h2>Une histoire à écouter</h2>
-
-            <p>
-                Tout a commencé par une conversation sur Sade.
-                Nous aimons tous les deux ce groupe britannique,
-                et en particulier la voix de sa chanteuse, Sade Adu.
-                Le piano a aussi compté dans le choix du sujet.
-                Gianni, pianiste autodidacte, s'intéresse à la façon
-                dont un accompagnement peut changer ce qu'on ressent
-                à l'écoute d'une voix.
-            </p>
-
-            <p>
-                Au début de Billie Jean, Michael Jackson laisse
-                la batterie et la basse occuper le terrain.
-                Quatorze ans séparent l'album Thriller de
-                One in a Million d'Aaliyah.
-                Que s'est-il passé entre ces deux disques ?
-            </p>
-
-            <p>
-                Le <a href="#mot-rnb">rhythm and blues</a>
-                désigne d'abord une partie de la musique populaire
-                noire américaine d'après-guerre.
-                La <a href="#mot-soul">soul</a> naît notamment
-                de sa rencontre avec le gospel.
-                Au cours des années 1980 et 1990, les artistes
-                reprennent cette histoire avec de nouveaux instruments,
-                des synthétiseurs et des machines à rythmes.
-            </p>
-
+          <h2>Une histoire à écouter</h2>
+          <p>Tout a commencé par une conversation sur Sade. Nous aimons tous les deux ce groupe britannique,
+            et en particulier la voix de sa chanteuse, Sade Adu. Le piano a aussi compté dans le choix du sujet.
+            Gianni, pianiste autodidacte, s’intéresse à la façon dont un accompagnement peut changer ce qu’on
+            ressent à l’écoute d’une voix. Dans <cite>Smooth Operator</cite>, écoutez le moment où le saxophone
+            prend le relais du chant. C’est ce genre de détail qui nous a donné envie de raconter ces deux
+            décennies à travers des morceaux.</p>
+          <p>Au début de <cite>Billie Jean</cite>, Michael Jackson laisse la batterie et la basse occuper
+            le terrain. Quand il entre, on peut encore suivre la basse sans perdre une syllabe de son récit.
+            Quatorze ans séparent l’album <cite>Thriller</cite> de <cite>One in a Million</cite>. Chez Aaliyah,
+            la batterie change d’appui pendant que la chanteuse tient tranquillement sa phrase. Que s’est-il
+            passé entre ces deux disques&nbsp;?</p>
+          <p>Le <a id="appel-rnb" href="#mot-rnb">rhythm and blues</a> désigne d’abord une partie de la musique
+            populaire noire américaine d’après-guerre. La <span id="appel-soul">soul</span> <sup><a href="#mot-soul">glossaire</a></sup>
+            naît notamment de sa rencontre avec le gospel. Au cours des années 1980 et 1990, les artistes reprennent
+            cette histoire avec ce qu’ils ont sous la main&nbsp;: un groupe, un synthétiseur, une machine à
+            échantillonner, parfois quelques voix devant un micro. Pour suivre le chemin parcouru, tendons
+            l’oreille à trois choses simples&nbsp;: qui donne la pulsation, qui chante et qui lui répond.</p>
         </section>
 
-
-        <!-- LES ORIGINES -->
         <section id="origines">
-
-            <h2>Des églises aux studios</h2>
-
-            <p>
-                Aux États-Unis, l'expression anglaise
-                <em>rhythm and blues</em> entre dans le vocabulaire
-                de l'industrie du disque dans les années 1940.
-                Elle rassemble alors différentes musiques :
-                le blues électrique, les orchestres de danse
-                et les chansons de groupes urbains.
-            </p>
-
-            <p>
-                Le <a href="#mot-gospel">gospel</a> laisse une trace
-                importante dans la soul.
-                Chez Ray Charles, I Got a Woman reprend un motif
-                religieux pour raconter une histoire d'amour.
-                Aretha Franklin transforme ensuite Respect en un
-                hymne qui dépasse largement la scène musicale.
-            </p>
-
-            <p>
-                Deux villes donnent une idée de la variété de la soul
-                des années 1960. À Detroit, les disques Motown des
-                Supremes font une large place aux refrains de groupe.
-                À Memphis, les enregistrements Stax d'Otis Redding
-                font entendre des dialogues entre voix et cuivres.
-            </p>
-
-            <p>
-                À partir de la fin de la décennie, le
-                <a href="#mot-funk">funk</a> développe encore
-                le rôle de la basse et de la batterie.
-            </p>
-
+          <h2>Des églises aux studios</h2>
+          <p>Aux États-Unis, l’expression anglaise <i lang="en">rhythm and blues</i> entre dans le vocabulaire
+            de l’industrie du disque dans les années 1940. Elle rassemble alors des musiques assez différentes&nbsp;:
+            du blues joué sur des instruments électriques, des orchestres de danse, des chansons de petits
+            groupes urbains. Comprendre que c’est aussi une <a href="#ref-rnb">catégorie commerciale</a> aide
+            à saisir pourquoi les disques classés «&nbsp;R&amp;B&nbsp;» sonnent si différemment d’une époque
+            à l’autre.</p>
+          <p>Le <a id="appel-gospel" href="#mot-gospel">gospel</a> laisse une trace que l’on peut suivre
+            à l’oreille. Chez Ray Charles, <cite>I Got a Woman</cite> reprend un motif religieux pour chanter
+            une histoire d’amour. En 1967, Aretha Franklin transforme <cite>Respect</cite>, enregistré deux
+            ans auparavant par Otis Redding. Ses sœurs lui répondent aux chœurs. On entend la demande de respect
+            passer d’une voix à plusieurs. Le morceau devient un hymne qui dépasse largement la scène de couple
+            dont il est parti.</p>
+          <p>Deux villes donnent une idée de la variété de la soul des années 1960. À Detroit, les disques
+            Motown des Supremes font une large place aux refrains de groupe. À Memphis, les enregistrements
+            Stax d’Otis Redding font entendre des dialogues serrés entre voix et cuivres. À partir de la fin
+            de la décennie, le <a id="appel-funk" href="#mot-funk">funk</a> développe encore le rôle de la
+            basse et de la batterie. C’est une bonne préparation à l’écoute de Michael Jackson.</p>
+          <p class="source-note">Deux écoutes replacées dans leur histoire par la Library of Congress&nbsp;:
+            <a href="#ref-ray">Ray Charles</a> et <a href="#ref-respect">Aretha Franklin</a>.</p>
         </section>
 
-
-        <!-- LES ANNEES 1980 -->
         <section id="annees80">
-
-            <h2>Les années 1980 entrent en studio</h2>
-
-            <p>
-                Écoutez les premières mesures de
-                <a href="https://www.michaeljackson.com/watch/billie-jean/">
-                    Billie Jean
-                </a>.
-                La batterie est très régulière.
-                Pourtant, c'est bien le batteur Leon « Ndugu »
-                Chancler que l'on entend.
-                Une partie de la signature de Thriller tient
-                dans cette rencontre entre le musicien et le studio.
-            </p>
-
-            <p>
-                Au Royaume-Uni, le groupe Sade développe une autre
-                approche musicale.
-                Le saxophone répond à la voix grave de Sade Adu
-                sur <a href="https://www.youtube.com/watch?v=4TYv2PhG89A">
-                    Smooth Operator
-                </a>.
-                Paru en 1984, l'album Diamond Life rappelle que
-                la soul peut aussi prendre les couleurs du jazz.
-            </p>
-
-            <p>
-                Chez Teddy Riley, la
-                <a href="#mot-machine">boîte à rythmes</a>
-                et le <a href="#mot-synthe">synthétiseur</a>
-                permettent de régler séparément les frappes
-                et la longueur des notes.
-                C'est l'un des éléments qui popularisent
-                le <a href="#mot-njs">new jack swing</a>.
-            </p>
-
-            <p>
-                En 1989, Janet Jackson publie Rhythm Nation 1814
-                avec les producteurs Jimmy Jam et Terry Lewis.
-                L'album aborde notamment des questions de racisme
-                et de pauvreté.
-                Le clip de
-                <a href="https://www.youtube.com/watch?v=OAwaNWGLM0c">
-                    Rhythm Nation
-                </a>
-                prolonge les accents de la batterie
-                par une chorégraphie collective.
-            </p>
-
+          <h2>Les années 1980 entrent en studio</h2>
+          <p>Écoutez les premières mesures de <a href="https://www.michaeljackson.com/watch/billie-jean/"><cite>Billie
+            Jean</cite></a>. La batterie est si régulière qu’on pourrait la croire entièrement programmée.
+            Pourtant, c’est bien le batteur Leon «&nbsp;Ndugu&nbsp;» Chancler que l’on entend. Dans l’équipe
+            de Quincy Jones, le son d’une frappe et le travail du micro comptent autant que le jeu lui-même.
+            Une partie de la signature de <cite>Thriller</cite> tient dans cette rencontre entre le musicien
+            et le studio.</p>
+          <p>Au Royaume-Uni, le groupe Sade déplace la question. Le saxophone répond à la voix grave de Sade
+            Adu sur <a href="https://www.youtube.com/watch?v=4TYv2PhG89A"><cite>Smooth Operator</cite></a>.
+            La basse avance régulièrement, tandis que la chanteuse raconte les déplacements d’un séducteur
+            avec un calme déroutant. Paru en 1984, <cite>Diamond Life</cite> rappelle que la soul de ces années-là
+            peut aussi prendre les couleurs du jazz britannique.</p>
+          <p>Chez Teddy Riley, la <a id="appel-machine" href="#mot-machine">boîte à rythmes</a> et le <a id="appel-synthe" href="#mot-synthe">synthétiseur</a>
+            permettent de régler séparément la place des frappes et la longueur des notes. Sur <cite>Groove
+            Me</cite> de Guy, les accents bondissent, les voix s’interpellent et le refrain reste facile à
+            reprendre. C’est l’un des disques qui popularisent le <a id="appel-njs" href="#mot-njs">new jack
+            swing</a>, à la croisée du funk, du hip-hop et du chant R&amp;B.</p>
+          <p>Janet Jackson donne à ce son de studio une portée politique. En 1989, avec les producteurs Jimmy
+            Jam et Terry Lewis, elle construit <cite>Rhythm Nation 1814</cite> autour de questions de racisme
+            et de pauvreté. Dans le <a href="https://www.youtube.com/watch?v=OAwaNWGLM0c">clip de la chanson-titre</a>,
+            les gestes collectifs prolongent les accents secs de la batterie. Le refrain demande de faire groupe,
+            et la chorégraphie lui donne déjà une forme.</p>
+          <p class="source-note">Sur les choix de production&nbsp;: <a href="#ref-wicke">l’enregistrement
+            de la batterie de Michael Jackson</a>, <a href="#ref-guy">Teddy Riley et Guy</a>, <a href="#ref-janet">la
+            portée politique de Rhythm Nation</a>.</p>
         </section>
 
-
-        <!-- LES ANNEES 1990 -->
         <section id="annees90">
+          <h2>Les années 1990 et les nouveaux visages du R&amp;B</h2>
+          <p>1992 donne deux réponses très différentes à la question «&nbsp;que peut faire une voix soul&nbsp;?&nbsp;».
+            Whitney Houston ouvre <a href="https://www.whitneyhouston.com/video/i-will-always-love-you/"><cite>I
+            Will Always Love You</cite></a> sans accompagnement. Mary J. Blige, sur <cite>Real Love</cite>,
+            attaque ses phrases au milieu d’une batterie qui pourrait porter un rap. Son premier album <cite>What’s
+            the 411?</cite> devient un repère de la <a id="appel-hhs" href="#mot-hhs">hip-hop soul</a>. Un
+            même public peut désormais entendre la grande ballade de cinéma et cette manière plus rugueuse
+            de chanter l’intime.</p>
+          <p>La rencontre avec le rap prend plusieurs formes. En 1995, Mariah Carey partage son remix de
+            <cite>Fantasy</cite> avec Ol’ Dirty Bastard. Le <a id="appel-sample" href="#mot-sample">sample</a>
+            de <cite>Genius of Love</cite> du Tom Tom Club revient en boucle sous leurs deux voix. Chez TLC,
+            la rappeuse fait déjà partie du trio. Dans <cite>Waterfalls</cite>, deux couplets chantés racontent
+            des drames liés à la violence et au VIH. Quand Lisa «&nbsp;Left Eye&nbsp;» Lopes prend la parole,
+            le récit collectif devient plus personnel.</p>
+          <p>À la même époque, le clavier de D’Angelo évoque une autre filiation. Sur <cite>Brown Sugar</cite>
+            en 1995, les accords semblent se balancer à l’intérieur de la pulsation. Les voix superposées du
+            refrain ont la souplesse d’un petit chœur. On associe ce disque à la <a id="appel-neo" href="#mot-neo">néo-soul</a>,
+            où les harmonies anciennes côtoient les rythmes du hip-hop.</p>
+          <p>En 1996, Aaliyah choisit de travailler avec Missy Elliott et Timbaland. Sur <cite>One in a Million</cite>,
+            les coups de grosse caisse arrivent par grappes, puis laissent du vide. Aaliyah garde un timbre
+            doux, presque égal. Si l’on se met à suivre une seule de ces deux lignes, l’autre semble changer
+            de vitesse. L’atelier ci-dessous permet d’essayer une comparaison voisine avec deux courts motifs.</p>
+          <p class="source-note">Pour retrouver les œuvres et les témoignages&nbsp;: <a href="#ref-mary">le
+            disque de Mary J. Blige</a>, <a href="#ref-fantasy">le remix de Mariah Carey</a>, <a href="#ref-tlc">l’analyse
+            de Waterfalls</a> et <a href="#ref-oiam">le disque d’Aaliyah</a>.</p>
+          <!-- Cet encadré propose une expérience à côté du récit historique. -->
 
-            <h2>Les années 1990 et les nouveaux visages du R&amp;B</h2>
-
-            <p>
-                En 1992, Whitney Houston interprète
-                <a href="https://www.whitneyhouston.com/video/i-will-always-love-you/">
-                    I Will Always Love You
-                </a>.
-                Mary J. Blige, sur Real Love, adopte une manière
-                plus proche du rap.
-                Son album What's the 411? devient un repère
-                de la <a href="#mot-hhs">hip-hop soul</a>.
-            </p>
-
-            <p>
-                En 1995, Mariah Carey partage son remix de Fantasy
-                avec Ol' Dirty Bastard.
-                Le <a href="#mot-sample">sample</a> de Genius of Love
-                du Tom Tom Club revient en boucle sous leurs voix.
-            </p>
-
-            <p>
-                Chez TLC, la rappeuse fait partie du trio.
-                Dans Waterfalls, les paroles abordent des sujets
-                liés à la violence et au VIH.
-                Lisa « Left Eye » Lopes apporte une dimension
-                supplémentaire au morceau.
-            </p>
-
-            <p>
-                En 1995, D'Angelo publie Brown Sugar.
-                Les accords et les voix superposées évoquent
-                la <a href="#mot-neo">néo-soul</a>,
-                qui associe la soul à des éléments de jazz,
-                de funk et de hip-hop.
-            </p>
-
-            <p>
-                En 1996, Aaliyah travaille avec Missy Elliott
-                et Timbaland sur l'album One in a Million.
-                Les rythmes deviennent plus complexes,
-                tandis que la chanteuse conserve un timbre doux.
-            </p>
-
-            <!-- ATELIER D'ECOUTE -->
-            <aside id="atelier">
-
-                <h3>Atelier d'écoute : deux façons de jouer un rythme</h3>
-
-                <p>
-                    Écoutez les deux exemples sonores.
-                    Les accords, la mélodie et le tempo restent
-                    les mêmes, mais le placement des rythmes change.
-                </p>
-
-                <figure>
-                    <figcaption>Face A : le rythme en place</figcaption>
-
-                    <audio controls>
-                        <source src="assets/groove-a.wav" type="audio/wav">
-                        Votre navigateur ne prend pas en charge l'audio.
-                    </audio>
-                </figure>
-
-                <figure>
-                    <figcaption>Face B : le rythme en retrait</figcaption>
-
-                    <audio controls>
-                        <source src="assets/groove-b.wav" type="audio/wav">
-                        Votre navigateur ne prend pas en charge l'audio.
-                    </audio>
-                </figure>
-
-                <figure>
-                    <img src="assets/premiere-mesure.png"
-                         alt="Comparaison graphique de deux rythmes">
-                    <figcaption>
-                        Comparaison des formes d'onde des deux exemples.
-                    </figcaption>
-                </figure>
-
-            </aside>
-
+          <aside id="atelier" class="atelier" aria-labelledby="titre-atelier">
+            <p class="kicker">Atelier d’écoute</p>
+            <h3 id="titre-atelier">Un même motif, deux façons de le jouer</h3>
+            <p class="atelier-intro">Tapez du pied en passant d’une face à l’autre. Les accords, la mélodie
+              et le tempo restent les mêmes. Est-ce que votre pied marque toujours le même tempo quand le <a id="appel-groove" href="#mot-groove">groove</a>
+              change&nbsp;?</p>
+            <div class="players">
+              <figure>
+                <figcaption><span class="face">Face A</span><strong>Le rythme en place</strong></figcaption>
+                <p>Le charleston marque régulièrement les croches. Suivez la basse qui rebondit entre les frappes.</p>
+                <audio controls preload="metadata" aria-label="Écouter la face A, le rythme en place" src="assets/groove-a.wav">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+                <a class="audio-file" download href="assets/groove-a.wav">Télécharger la face A <span>(WAV)</span></a>
+              </figure>
+              <figure>
+                <figcaption><span class="face">Face B</span><strong>Le rythme en retrait</strong></figcaption>
+                <p>La caisse claire tombe un peu derrière le temps. Écoutez aussi les accords du piano électrique qui résonnent plus longtemps.</p>
+                <audio controls preload="metadata" aria-label="Écouter la face B, le rythme en retrait" src="assets/groove-b.wav">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+                <a class="audio-file" download href="assets/groove-b.wav">Télécharger la face B <span>(WAV)</span></a>
+              </figure>
+            </div>
+            <figure class="traces">
+              <img src="assets/premiere-mesure.png" width="1040" height="300" alt="Les tracés A et B couvrent quatre temps. Leurs pics se répartissent différemment à l’intérieur de la même mesure." loading="lazy">
+              <figcaption>Les formes d’onde de la première mesure. Les traits verticaux indiquent les temps et
+                la hauteur des tracés représente l’amplitude du signal. Le même intervalle occupe la même largeur
+                sur les deux lignes.</figcaption>
+            </figure>
+            <p class="credit">Son et figure réalisés pour cet atelier à partir de deux maquettes instrumentales
+              originales de quatre mesures, à 96 battements par minute.</p>
+          </aside>
         </section>
 
-
-        <!-- LES ARTISTES -->
         <section id="artistes">
-
-            <h2>Dix voix à reconnaître</h2>
-
-            <p>
-                Plusieurs artistes ont marqué la soul et le R&amp;B
-                des années 1980 et 1990.
-            </p>
-
-            <dl>
-
-                <dt>Michael Jackson</dt>
-                <dd>
-                    Sur Billie Jean, la basse et la batterie
-                    occupent une place centrale.
-                </dd>
-
-                <dt>Sade</dt>
-                <dd>
-                    Sur Smooth Operator, le saxophone prolonge
-                    la ligne mélodique lorsque la voix se tait.
-                </dd>
-
-                <dt>Janet Jackson</dt>
-                <dd>
-                    Son album Rhythm Nation 1814 associe musique,
-                    chorégraphie et messages politiques.
-                </dd>
-
-                <dt>Whitney Houston</dt>
-                <dd>
-                    Sa puissance vocale fait d'elle une figure
-                    majeure des années 1990.
-                </dd>
-
-                <dt>Mary J. Blige</dt>
-                <dd>
-                    Elle contribue au développement de la
-                    hip-hop soul.
-                </dd>
-
-                <dt>Boyz II Men</dt>
-                <dd>
-                    Le groupe est connu pour ses harmonies vocales
-                    et ses ballades R&amp;B.
-                </dd>
-
-                <dt>TLC</dt>
-                <dd>
-                    Le trio associe chant, rap et sujets de société.
-                </dd>
-
-                <dt>Mariah Carey</dt>
-                <dd>
-                    Elle mêle chant R&amp;B, pop et influences hip-hop.
-                </dd>
-
-                <dt>D'Angelo</dt>
-                <dd>
-                    Son album Brown Sugar est associé à la néo-soul.
-                </dd>
-
-                <dt>Aaliyah</dt>
-                <dd>
-                    Elle est connue pour son chant retenu
-                    et ses productions rythmiques innovantes.
-                </dd>
-
-            </dl>
-
+          <h2>Dix voix à reconnaître</h2>
+          <p>Choisissez un nom familier et essayez de repérer le détail proposé sans regarder le clip. Un
+            souffle ou une réponse du chœur suffit parfois à reconnaître un artiste.</p>
+          <dl class="artist-list">
+            <div>
+              <dt>Michael Jackson</dt>
+              <dd>Sur <cite>Billie Jean</cite>, ses petits souffles entre deux phrases relancent le rythme. Écoutez-les
+                comme une percussion supplémentaire.</dd>
+            </div>
+            <div>
+              <dt>Sade</dt>
+              <dd>Sade est le nom du groupe britannique et Sade Adu celui de sa chanteuse. Sur <cite>Smooth Operator</cite>,
+                le saxophone prolonge la ligne mélodique quand la voix se tait.</dd>
+            </div>
+            <div>
+              <dt>Janet Jackson</dt>
+              <dd>Le refrain de <cite>Rhythm Nation</cite> demande une précision presque chorégraphique. Les
+                syllabes courtes se posent toutes ensemble sur les accents.</dd>
+            </div>
+            <div>
+              <dt>Whitney Houston</dt>
+              <dd>Comparez le chant presque murmuré du début de <cite>I Will Always Love You</cite> à la dernière
+                reprise. Houston transforme le même refrain en changeant la hauteur, l’intensité et la durée des
+                notes.</dd>
+            </div>
+            <div>
+              <dt>Mary J. Blige</dt>
+              <dd>Sur <cite>Real Love</cite>, son grain de voix accroche les mots, alors que le piano répète
+                sa petite figure. La pulsation reste ferme même lorsque la voix prend son temps.</dd>
+            </div>
+            <div>
+              <dt>Boyz II Men</dt>
+              <dd>Dans <a href="https://music.apple.com/us/song/258607696"><cite>End of the Road</cite></a>,
+                paru sur la bande originale de <cite>Boomerang</cite> en 1992, suivez la voix la plus grave du
+                refrain. Elle fait changer l’accord sous la mélodie.</dd>
+            </div>
+            <div>
+              <dt>TLC</dt>
+              <dd>Le timbre voilé de T-Boz se reconnaît dès le début de <cite>Waterfalls</cite>. Les harmonies
+                du refrain et le rap de Left Eye permettent ensuite de changer de point de vue dans le même morceau.</dd>
+            </div>
+            <div>
+              <dt>Mariah Carey</dt>
+              <dd>Sur le remix de <cite>Fantasy</cite>, elle peut faire passer plusieurs notes sur une seule
+                syllabe. Le débit parlé d’Ol’ Dirty Bastard fait ressortir cette souplesse.</dd>
+            </div>
+            <div>
+              <dt>D’Angelo</dt>
+              <dd>Dans <cite>Brown Sugar</cite>, ses propres voix empilées semblent se répondre. Le clavier laisse
+                juste assez d’espace entre deux accords pour qu’on les entende circuler.</dd>
+            </div>
+            <div>
+              <dt>Aaliyah</dt>
+              <dd>Sur <cite>One in a Million</cite>, elle ne hausse presque jamais le ton. Cette retenue rend
+                chaque inflexion perceptible au-dessus de la batterie.</dd>
+            </div>
+          </dl>
         </section>
 
-
-        <!-- LES ALBUMS -->
         <section id="disques">
-
-            <h2>Huit albums emblématiques</h2>
-
-            <p>
-                Voici quelques albums qui permettent de découvrir
-                l'évolution de la soul et du R&amp;B.
-            </p>
-
+          <h2>Huit albums et huit portes d’entrée</h2>
+          <p>Les dates correspondent aux albums. C’est utile pour <cite>Waterfalls</cite>, présent sur un
+            disque de 1994 puis sorti en single au printemps 1995. Chaque titre ci-dessous renvoie à une écoute,
+            à un extrait ou au clip de l’artiste.</p>
+          <!-- Les titres des lignes et des colonnes permettent aussi de lire le tableau au lecteur d’écran. -->
+          <div class="table-scroll">
             <table>
-
-                <caption>
-                    Albums et chansons représentatifs
-                    des années 1980 et 1990.
-                </caption>
-
+              <caption>Dates de sortie des albums, artistes et titres à écouter. Pour <cite>Diamond Life</cite>,
+                il s’agit de la sortie britannique. Pour <cite>Brown Sugar</cite>, il s’agit de l’édition américaine.</caption>
+              <thead>
                 <tr>
-                    <th>Année</th>
-                    <th>Artiste</th>
-                    <th>Album</th>
-                    <th>Chanson</th>
+                  <th scope="col">Sortie</th>
+                  <th scope="col">Album et artiste</th>
+                  <th scope="col">Titre à écouter</th>
                 </tr>
-
+              </thead>
+              <tbody>
                 <tr>
-                    <td>1982</td>
-                    <td>Michael Jackson</td>
-                    <td>Thriller</td>
-                    <td>
-                        <a href="https://www.michaeljackson.com/watch/billie-jean/">
-                            Billie Jean
-                        </a>
-                    </td>
+                  <th scope="row"><time datetime="1982-11-30">30 novembre 1982</time></th>
+                  <td><a href="#ref-michael"><cite>Thriller</cite></a><br>Michael Jackson</td>
+                  <td><a href="https://www.michaeljackson.com/watch/billie-jean/">Billie Jean</a><br>Une batterie
+                    au son très sec, puis une basse qui répète sa phrase jusqu’à la rendre indissociable du morceau.</td>
                 </tr>
-
                 <tr>
-                    <td>1984</td>
-                    <td>Sade</td>
-                    <td>Diamond Life</td>
-                    <td>
-                        <a href="https://www.youtube.com/watch?v=4TYv2PhG89A">
-                            Smooth Operator
-                        </a>
-                    </td>
+                  <th scope="row"><time datetime="1984-07-16">16 juillet 1984</time></th>
+                  <td><a href="#ref-sade"><cite>Diamond Life</cite></a><br>Sade</td>
+                  <td><a href="https://www.youtube.com/watch?v=4TYv2PhG89A">Smooth Operator</a><br>Les réponses du
+                    saxophone ouvrent une place au jazz dans la soul de ce groupe britannique.</td>
                 </tr>
-
                 <tr>
-                    <td>1988</td>
-                    <td>Guy</td>
-                    <td>Guy</td>
-                    <td>Groove Me</td>
+                  <th scope="row"><time datetime="1988-06-13">13 juin 1988</time></th>
+                  <td><a href="#ref-guy-lp"><cite>Guy</cite></a><br>Guy</td>
+                  <td><a href="https://www.youtube.com/watch?v=PAu2bsV9CiQ">Groove Me</a><br>Le swing de la programmation
+                    et les voix de groupe donnent une forme particulièrement dansante au R&amp;B.</td>
                 </tr>
-
                 <tr>
-                    <td>1989</td>
-                    <td>Janet Jackson</td>
-                    <td>Rhythm Nation 1814</td>
-                    <td>Rhythm Nation</td>
+                  <th scope="row"><time datetime="1989-09-19">19 septembre 1989</time></th>
+                  <td><a href="#ref-janet-lp"><cite>Janet Jackson’s Rhythm Nation 1814</cite></a><br>Janet Jackson</td>
+                  <td><a href="https://www.youtube.com/watch?v=OAwaNWGLM0c">Rhythm Nation</a><br>Une marche, un refrain
+                    fédérateur et des paroles politiques se rejoignent sur la piste de danse.</td>
                 </tr>
-
                 <tr>
-                    <td>1992</td>
-                    <td>Mary J. Blige</td>
-                    <td>What's the 411?</td>
-                    <td>Real Love</td>
+                  <th scope="row"><time datetime="1992-07-28">28 juillet 1992</time></th>
+                  <td><a href="#ref-mary"><cite>What’s the 411?</cite></a><br>Mary J. Blige</td>
+                  <td><a href="https://www.youtube.com/watch?v=nXiBUgOzgVQ">Real Love</a><br>Les accents du hip-hop
+                    soutiennent une voix puissante, un repère pour la génération de la hip-hop soul.</td>
                 </tr>
-
                 <tr>
-                    <td>1994</td>
-                    <td>TLC</td>
-                    <td>CrazySexyCool</td>
-                    <td>Waterfalls</td>
+                  <th scope="row"><time datetime="1994-11-15">15 novembre 1994</time></th>
+                  <td><a href="#ref-tlc-lp"><cite>CrazySexyCool</cite></a><br>TLC</td>
+                  <td><a href="https://www.youtube.com/watch?v=8WEtxJ4-sh4">Waterfalls</a><br>Le trio rassemble récit
+                    social, refrain mémorable et rap dans un même single.</td>
                 </tr>
-
                 <tr>
-                    <td>1995</td>
-                    <td>D'Angelo</td>
-                    <td>Brown Sugar</td>
-                    <td>Brown Sugar</td>
+                  <th scope="row"><time datetime="1995-07-04">4 juillet 1995</time></th>
+                  <td><a href="#ref-dangelo"><cite>Brown Sugar</cite></a><br>D’Angelo</td>
+                  <td><a href="https://www.youtube.com/watch?v=H_WzjiTzZBA">Brown Sugar</a><br>Les accords de clavier
+                    et les chœurs suggèrent comment la néo-soul reprend l’écriture harmonique de la soul.</td>
                 </tr>
-
                 <tr>
-                    <td>1996</td>
-                    <td>Aaliyah</td>
-                    <td>One in a Million</td>
-                    <td>One in a Million</td>
+                  <th scope="row"><time datetime="1996-08-27">27 août 1996</time></th>
+                  <td><a href="#ref-oiam"><cite>One in a Million</cite></a><br>Aaliyah</td>
+                  <td><a href="https://www.youtube.com/watch?v=KKSz4NE6PwY">One in a Million</a><br>Le chant presque
+                    continu fait entendre les ruptures du motif rythmique de Timbaland.</td>
                 </tr>
-
+              </tbody>
             </table>
-
+          </div>
         </section>
 
-
-        <!-- HERITAGE MUSICAL -->
         <section id="heritage">
-
-            <h2>Ce qui s'entend encore aujourd'hui</h2>
-
-            <p>
-                En 2018, Bruno Mars et Cardi B reprennent certains
-                éléments du new jack swing sur le remix de Finesse.
-                Les rythmes, les claviers et les refrains rappellent
-                les productions de la fin des années 1980.
-            </p>
-
-            <p>
-                L'influence de la soul et du R&amp;B des années 1980
-                et 1990 reste présente dans la musique contemporaine.
-                Les artistes actuels reprennent les sonorités,
-                les rythmes et les techniques vocales de cette période.
-            </p>
-
+          <h2>Ce qui s’entend encore</h2>
+          <p>En 2018, Bruno Mars et Cardi B reprennent le vocabulaire du new jack swing sur le remix de <cite>Finesse</cite>.
+            Passez du refrain de Guy à celui de Bruno Mars&nbsp;: la caisse claire coupe net, les claviers
+            font de petits bonds et le refrain se chante d’un bloc. Le <a href="#ref-finesse">clip de Finesse</a>
+            revendique aussi un souvenir de télévision, l’émission américaine <cite lang="en">In Living Color</cite>.
+            La référence passe par les couleurs et les mouvements autant que par les machines.</p>
+          <p>L’influence peut aussi être moins visible. La chanteuse britannique Nao raconte au <cite>Guardian</cite>
+            ce qu’elle a retenu d’Aaliyah&nbsp;: le contraste entre un chant retenu et une batterie aventureuse.
+            À propos de l’interprétation, elle dit qu’Aaliyah chantait <q lang="en" cite="https://www.theguardian.com/music/2021/aug/13/aaliyah-her-sound-is-the-rb-blueprint">in
+            a way that was understated</q>, autrement dit avec retenue. C’est un autre fil qui relie ces deux
+            décennies au présent&nbsp;: une voix peut garder toute l’attention en laissant de la place autour
+            d’elle.</p>
+          <p class="source-note"><a href="#ref-aaliyah">Lire l’entretien avec Nao et les musiciens qui ont travaillé avec Aaliyah.</a></p>
         </section>
 
-
-        <!-- GLOSSAIRE -->
         <section id="glossaire">
-
-            <h2>Glossaire : les mots de l'écoute</h2>
-
-            <dl>
-
-                <dt id="mot-soul">Soul</dt>
-                <dd>
-                    Genre musical issu notamment de la rencontre
-                    du gospel et du rhythm and blues.
-                </dd>
-
-                <dt id="mot-rnb">R&amp;B</dt>
-                <dd>
-                    Abréviation de rhythm and blues.
-                    Le genre évolue fortement à partir des années 1980.
-                </dd>
-
-                <dt id="mot-gospel">Gospel</dt>
-                <dd>
-                    Musique religieuse issue des traditions
-                    chrétiennes afro-américaines.
-                </dd>
-
-                <dt id="mot-funk">Funk</dt>
-                <dd>
-                    Style musical dans lequel la basse
-                    et la batterie occupent une place importante.
-                </dd>
-
-                <dt id="mot-synthe">Synthétiseur</dt>
-                <dd>
-                    Instrument électronique permettant
-                    de produire et de transformer des sons.
-                </dd>
-
-                <dt id="mot-machine">Boîte à rythmes</dt>
-                <dd>
-                    Machine permettant de programmer
-                    des sons de percussion.
-                </dd>
-
-                <dt id="mot-sample">Sampling</dt>
-                <dd>
-                    Technique qui consiste à prélever un fragment
-                    sonore pour le réutiliser dans un autre morceau.
-                </dd>
-
-                <dt id="mot-njs">New jack swing</dt>
-                <dd>
-                    Courant musical de la fin des années 1980
-                    qui associe R&amp;B, funk et hip-hop.
-                </dd>
-
-                <dt id="mot-hhs">Hip-hop soul</dt>
-                <dd>
-                    Style qui associe les voix soul
-                    aux rythmes proches du rap.
-                </dd>
-
-                <dt id="mot-neo">Néo-soul</dt>
-                <dd>
-                    Courant des années 1990 qui renouvelle
-                    la soul avec des influences jazz, funk et hip-hop.
-                </dd>
-
-            </dl>
-
+          <h2>Les mots de l’écoute</h2>
+          <!-- dt contient le terme, dd sa définition et le lien de retour au passage. -->
+          <dl class="glossary">
+            <div>
+              <dt id="mot-soul"><dfn>Soul</dfn></dt>
+              <dd>Courant afro-américain né dans les années 1950 et 1960 de la rencontre du gospel et du rhythm
+                and blues. Les inflexions de la voix et le dialogue avec les chœurs comptent parmi ses traits les
+                plus reconnaissables. <a class="retour" href="#appel-soul">Revenir au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-rnb"><dfn><abbr title="Rhythm and blues">R&amp;B</abbr></dfn></dt>
+              <dd>Abréviation de <i lang="en">rhythm and blues</i>. D’abord employé par l’industrie américaine
+                du disque pour classer des enregistrements d’artistes noirs, le terme désigne aussi, à partir des
+                années 1980, un ensemble de musiques chantées nourries de soul, de funk et de hip-hop. <a class="retour" href="#appel-rnb">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-gospel"><dfn>Gospel</dfn></dt>
+              <dd>Musique religieuse issue des traditions chrétiennes afro-américaines. Le dialogue entre soliste
+                et assemblée s’entend aussi dans de nombreux enregistrements de soul. <a class="retour" href="#appel-gospel">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-funk"><dfn>Funk</dfn></dt>
+              <dd>Musique de danse afro-américaine dans laquelle la basse et la batterie organisent le mouvement.
+                Guitares, claviers et voix peuvent renforcer le rythme par de courtes interventions répétées. <a class="retour" href="#appel-funk">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-groove"><dfn>Groove</dfn></dt>
+              <dd>Sensation de mouvement qui naît de la façon dont les instruments jouent ensemble. À tempo égal,
+                une caisse claire très en place ou légèrement en retard peut changer cette sensation. <a href="#atelier">Comparer
+                les deux exemples sonores.</a> <a class="retour" href="#appel-groove">Revenir au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-synthe"><dfn>Synthétiseur</dfn></dt>
+              <dd>Instrument qui produit et façonne des sons par des moyens électroniques. On peut notamment
+                régler la vitesse à laquelle une note apparaît puis disparaît. <a class="retour" href="#appel-synthe">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-machine"><dfn>Boîte à rythmes</dfn></dt>
+              <dd>Machine qui permet de choisir des sons de percussion et de programmer les moments où ils seront
+                joués. <a class="retour" href="#appel-machine">Revenir au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-sample"><dfn>Sampling</dfn></dt>
+              <dd>Échantillonnage. On prélève un fragment sonore d’un enregistrement pour le rejouer, le mettre
+                en boucle ou le transformer dans un autre morceau. <a class="retour" href="#appel-sample">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-njs"><dfn>New jack swing</dfn></dt>
+              <dd>Courant de la fin des années 1980 qui associe chant R&amp;B, rythmes programmés, accents du
+                funk et énergie du hip-hop. Teddy Riley est l’un de ses principaux producteurs. <a class="retour" href="#appel-njs">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-hhs"><dfn>Hip-hop soul</dfn></dt>
+              <dd>Nom donné, au début des années 1990, à un R&amp;B dont les voix soul se posent sur des rythmes
+                et des boucles proches du rap. Les premiers albums de Mary J. Blige en offrent un exemple. <a class="retour" href="#appel-hhs">Revenir
+                au texte</a>.</dd>
+            </div>
+            <div>
+              <dt id="mot-neo"><dfn>Néo-soul</dfn></dt>
+              <dd>Nom associé dans les années 1990 à des artistes comme D’Angelo ou Erykah Badu qui retravaillent
+                la soul avec des éléments de jazz, de funk et de hip-hop. <a class="retour" href="#appel-neo">Revenir
+                au texte</a>.</dd>
+            </div>
+          </dl>
         </section>
+        <!-- Chaque référence est cliquable. Les deux fichiers téléchargeables reprennent ces notices. -->
 
-
-        <!-- SOURCES ET BIBLIOGRAPHIE -->
         <section id="sources">
-
-            <h2>Sources et références</h2>
-
-            <p>
-                Cette partie rassemble les ouvrages, les articles
-                et les ressources en ligne utilisés pour réaliser
-                notre webdocumentaire.
-            </p>
-
-            <h3>Bibliographie</h3>
-
-            <ul>
-                <li>
-                    Nelson George,
-                    <em>The Death of Rhythm &amp; Blues</em>,
-                    Pantheon Books, 1988.
-                    <a href="https://search.worldcat.org/fr/title/The-death-of-rhythm-and-blues/oclc/17413592">
-                        Consulter la référence
-                    </a>
-                </li>
-
-                <li>
-                    Mark Anthony Neal,
-                    <em>Songs in the Key of Black Life</em>,
-                    Routledge, 2003.
-                    <a href="https://scholars.duke.edu/publication/1012218">
-                        Consulter la référence
-                    </a>
-                </li>
-            </ul>
-
-
-            <h3>Sitographie</h3>
-
-            <ul>
-                <li>
-                    Library of Congress :
-                    <a href="https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/popular-songs-of-the-day/rhythm-and-blues/">
-                        Rhythm and Blues
-                    </a>
-                </li>
-
-                <li>
-                    The Guardian :
-                    <a href="https://www.theguardian.com/music/2021/aug/13/aaliyah-her-sound-is-the-rb-blueprint">
-                        Aaliyah: Her sound is the R&amp;B blueprint
-                    </a>
-                </li>
-
-                <li>
-                    PBS :
-                    <a href="https://www.pbs.org/wgbh/americanexperience/features/songs-of-the-summer-1995/">
-                        Waterfalls by TLC
-                    </a>
-                </li>
-            </ul>
-
-
-            <h3>Discographie</h3>
-
-            <ul>
-                <li>
-                    Michael Jackson, Thriller, 1982.
-                    <a href="https://www.michaeljackson.com/albums/thriller/">
-                        Site officiel
-                    </a>
-                </li>
-
-                <li>
-                    Sade, Diamond Life, 1984.
-                    <a href="https://www.sade.com/music/diamond-life">
-                        Site officiel
-                    </a>
-                </li>
-
-                <li>
-                    Janet Jackson, Rhythm Nation 1814, 1989.
-                    <a href="https://music.apple.com/us/album/rhythm-nation-1814/1440838561">
-                        Consulter l'album
-                    </a>
-                </li>
-
-                <li>
-                    TLC, CrazySexyCool, 1994.
-                </li>
-
-                <li>
-                    D'Angelo, Brown Sugar, 1995.
-                    <a href="https://music.apple.com/us/album/brown-sugar/1440842296">
-                        Consulter l'album
-                    </a>
-                </li>
-
-                <li>
-                    Aaliyah, One in a Million, 1996.
-                </li>
-            </ul>
-
+          <h2>Sources et références</h2>
+          <p>La bibliographie réunit des ouvrages et un article de recherche. Les articles en ligne éclairent
+            un morceau ou un moment précis. La discographie indique les enregistrements utilisés pour les écoutes.</p>
+          <p><a class="export" href="assets/references.ris" download>Télécharger pour Zotero (.ris)</a> <a href="assets/references.json" download>Autre
+            format&nbsp;: CSL JSON</a></p>
+          <p class="source-note">Dans Zotero, choisissez Fichier → Importer, puis ouvrez le fichier téléchargé.
+            Date de consultation des ressources en ligne&nbsp;: <time datetime="2026-11-18">18 novembre 2026</time>.</p>
+          <h3>Bibliographie</h3>
+          <ul>
+            <li id="ref-meziane">Belkacem Meziane. <a href="https://lemotetlereste.com/musiques/thisishowwedoit/"><cite>This
+              Is How We Do It : 40 ans de R&amp;B en 100 albums</cite></a>. Le mot et le reste, 2021.</li>
+            <li id="ref-george">Nelson George. <a href="https://search.worldcat.org/fr/title/The-death-of-rhythm-and-blues/oclc/17413592"><cite>The
+              Death of Rhythm &amp; Blues</cite></a>. Pantheon Books, 1988.</li>
+            <li id="ref-neal">Mark Anthony Neal. <a href="https://scholars.duke.edu/publication/1012218"><cite>Songs
+              in the Key of Black Life: A Rhythm and Blues Nation</cite></a>. Routledge, 2003.</li>
+            <li id="ref-wicke">Peter Wicke. <a href="https://doi.org/10.1080/20551940.2024.2379602"><cite>Sound,
+              dispositif and power: sound formations in pop music</cite></a>. Sound Studies, 2024, vol. 10, nº
+              2, p. 147–178.</li>
+          </ul>
+          <h3>Sitographie</h3>
+          <ul>
+            <li id="ref-rnb">Library of Congress. <a href="https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/popular-songs-of-the-day/rhythm-and-blues/"><cite>Rhythm
+              and Blues</cite></a>. Songs of America, s. d..</li>
+            <li id="ref-ray">Geoffrey Himes. <a href="https://memory.loc.gov/static/programs/national-recording-preservation-board/documents/Modern-Sounds-in-Country-and-Western-Music_Himes.pdf"><cite>Modern
+              Sounds in Country and Western Music</cite></a>. Library of Congress, s. d..</li>
+            <li id="ref-respect">Meredith Ochs. <a href="https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Respect_Ochs.pdf"><cite>“Respect”
+              — Aretha Franklin (1967)</cite></a>. Library of Congress, s. d..</li>
+            <li id="ref-janet">Ayanna Dozier. <a href="https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Rhythm-Nation_Dozier.pdf"><cite>Janet
+              Jackson’s Rhythm Nation 1814</cite></a>. Library of Congress, s. d..</li>
+            <li id="ref-guy">Brendan Frederick. <a href="https://pitchfork.com/reviews/albums/guy/"><cite>Guy</cite></a>.
+              Pitchfork, 4 septembre 2022.</li>
+            <li id="ref-fantasy">REVOLT. <a href="https://www.revolt.tv/article/inside-mariah-carey-and-odb-fantasy-remix"><cite>Inside
+              Mariah Carey and ODB’s “Fantasy (Remix)”</cite></a>. s. d..</li>
+            <li id="ref-tlc">Katie Presley. <a href="https://www.pbs.org/wgbh/americanexperience/features/songs-of-the-summer-1995/"><cite>1995
+              | Waterfalls by TLC</cite></a>. PBS, American Experience, s. d..</li>
+            <li id="ref-aaliyah">Rhian Jones. <a href="https://www.theguardian.com/music/2021/aug/13/aaliyah-her-sound-is-the-rb-blueprint"><cite>Aaliyah:
+              ‘Her sound is the R&amp;B blueprint’</cite></a>. The Guardian, 13 août 2021.</li>
+            <li id="ref-finesse">Recording Academy. <a href="https://www.grammy.com/news/cardi-b-joins-bruno-mars-new-video-finesse-remix/"><cite>Cardi
+              B Joins Bruno Mars in New Video for “Finesse” Remix</cite></a>. Grammy.com, 5 janvier 2018.</li>
+          </ul>
+          <h3>Discographie</h3>
+          <ul>
+            <li id="ref-michael">Michael Jackson. <a href="https://www.michaeljackson.com/albums/thriller/"><cite>Thriller</cite></a>.
+              Epic, 30 novembre 1982.</li>
+            <li id="ref-sade">Sade. <a href="https://www.sade.com/music/diamond-life"><cite>Diamond Life</cite></a>. Epic, 16 juillet 1984.</li>
+            <li id="ref-guy-lp">Guy. <a href="https://www.allmusic.com/album/release/guy-mr0000830922"><cite>Guy</cite></a>.
+              Uptown / MCA, 13 juin 1988.</li>
+            <li id="ref-janet-lp">Janet Jackson. <a href="https://music.apple.com/us/album/rhythm-nation-1814/1440838561"><cite>Janet
+              Jackson’s Rhythm Nation 1814</cite></a>. A&amp;M, 19 septembre 1989.</li>
+            <li id="ref-mary">Mary J. Blige. <a href="https://music.apple.com/us/album/whats-the-411/1440817005"><cite>What’s
+              the 411?</cite></a>. Uptown / MCA, 28 juillet 1992.</li>
+            <li id="ref-tlc-lp">TLC. <a href="https://musicbrainz.org/release-group/3d886c06-a4c7-3431-be87-2b2940f07acd"><cite>CrazySexyCool</cite></a>.
+              LaFace / Arista, 15 novembre 1994.</li>
+            <li id="ref-dangelo">D’Angelo. <a href="https://music.apple.com/us/album/brown-sugar/1440842296"><cite>Brown
+              Sugar</cite></a>. EMI, 4 juillet 1995.</li>
+            <li id="ref-oiam">Aaliyah. <a href="https://musicbrainz.org/release-group/776a71f8-2071-3743-aab4-83436df1b366"><cite>One
+              in a Million</cite></a>. Blackground / Atlantic, 27 août 1996.</li>
+            <li id="ref-whitney">Whitney Houston. <a href="https://www.whitneyhouston.com/video/i-will-always-love-you/"><cite>I
+              Will Always Love You</cite></a>. Arista, 1992.</li>
+            <li id="ref-boyz">Boyz II Men. <a href="https://music.apple.com/us/song/258607696"><cite>End of the Road</cite></a>. LaFace, 1992.</li>
+          </ul>
         </section>
+      </article>
+    </main>
+    <!-- Les crédits, la licence et le contact sont regroupés dans le pied de page. -->
 
-    </article>
-
-
-    <!-- PIED DE PAGE -->
     <footer>
-
-        <h2>The Golden Era</h2>
-
-        <p>
-            Webdocumentaire réalisé dans le cadre
-            d'un projet pédagogique.
-        </p>
-
-        <p>
-            Projet réalisé par Gianni Nicoli et Guillermo Herouard.
-        </p>
-
-        <h3>Mentions légales</h3>
-
-        <p>
-            Site hébergé par GitHub Pages.
-            <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">
-                Politique de confidentialité de GitHub
-            </a>.
-        </p>
-
-        <h3>Licence de réutilisation</h3>
-
-        <p>
-            Les textes originaux de ce site sont proposés sous
-            licence
-            <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">
-                Creative Commons Attribution 4.0
-            </a>.
-            Les œuvres externes conservent leurs droits propres.
-        </p>
-
-        <h3>Nous contacter</h3>
-
-        <p>
-            <a href="mailto:gianni.nicoli.v@gmail.com?subject=Question%20sur%20le%20webdocumentaire&amp;body=Bonjour,">
-                Écrire à Gianni
-            </a>
-        </p>
-
-        <p>
-            <a href="mailto:herouardguillermo@gmail.com?subject=Question%20sur%20le%20webdocumentaire&amp;body=Bonjour,">
-                Écrire à Guillermo
-            </a>
-        </p>
-
-        <p>
-            <a href="#haut">Retour en haut de la page</a>
-        </p>
-
+      <div class="foot-top">
+        <p class="wordmark">The Golden Era</p>
+        <a href="#haut">Retour en haut ↑</a>
+      </div>
+      <details id="mentions">
+        <summary>Mentions légales, crédits et contact</summary>
+        <h3>Édition</h3>
+        <p>Projet pédagogique de Gianni Nicoli et Guillermo Herouard, en master CTM à l’Université Paris
+          1 Panthéon-Sorbonne. <a href="https://github.com/GuillermoHerouard/R-B-Soul---The-Golden-Era">Dépôt
+          du projet</a>.</p>
+        <address>Gianni Nicoli · gianni.nicoli.v@gmail.com<br>Guillermo Herouard · herouardguillermo@gmail.com<br><a href="mailto:gianni.nicoli.v@gmail.com,herouardguillermo@gmail.com?subject=Webdocumentaire%20Soul%20%26%20R%26B&amp;body=Bonjour%2C%0D%0A%0D%0AJe%20vous%20%C3%A9cris%20au%20sujet%20du%20webdocumentaire%20The%20Golden%20Era.%20">Écrire à l’équipe du projet</a></address>
+        <h3>Hébergement et données</h3>
+        <p>Le site du binôme utilise GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. Street,
+          San Francisco, CA 94107, États-Unis. <a href="https://support.github.com/contact">Contacter GitHub</a>.</p>
+        <p>Les images et les sons sont chargés depuis les fichiers du site. Les liens musicaux externes
+          s’ouvrent uniquement si vous les suivez. Les données traitées par l’hébergeur sont décrites dans
+          la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration
+          de confidentialité de GitHub</a>.</p>
+        <h3>Crédits et réutilisation</h3>
+        <p>La cassette de couverture est une illustration générée pour le projet. Les deux maquettes ont
+          été composées et synthétisées pour l’atelier. Le graphique a été calculé à partir de leurs fichiers
+          audio.</p>
+        <p>Les textes originaux, les maquettes et le graphique de cette édition sont proposés sous <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.fr">licence
+          Creative Commons Attribution 4.0</a>. Pour les reprendre, indiquez le titre du webdocumentaire,
+          son adresse et sa licence, puis précisez les modifications éventuelles. Les œuvres et documents
+          externes conservent leurs droits propres.</p>
+      </details>
     </footer>
-
-</body>
+    <script src="assets/lecteurs.js" defer></script>
+  </body>
 </html>
+
+Style CSS
+
+/* Couleurs du disque et de sa pochette. Une variable permet de changer une couleur partout. */
+:root {
+  --noir: #211b17;
+  --brun: #403026;
+  --cuivre: #8f4623;
+  --cuivre-clair: #efaf7a;
+  --creme: #faf5e9;
+  --beige: #dfd2be;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 4.5rem; }
+body {
+  margin: 0;
+  padding-top: 3.5rem;
+  color: var(--noir);
+  background: var(--creme);
+  font: 1.05rem/1.65 "Helvetica Neue", Arial, sans-serif;
+}
+h1, h2, h3, .wordmark, .artist-list dt {
+  font-family: "Iowan Old Style", Georgia, serif;
+  font-weight: normal;
+  line-height: 1.1;
+}
+h2 { margin: 0 0 1rem; font-size: clamp(2rem, 4vw, 3.3rem); }
+h3 { margin: 1.6rem 0 .6rem; font-size: 1.7rem; }
+p { margin: .85rem 0; }
+figure, dd { margin: 0; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--cuivre); text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: .14em; }
+a:focus-visible, summary:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+q { quotes: "« " " »" "‹ " " ›"; }
+:target { scroll-margin-top: .4rem; }
+dt:target, li:target, a[id]:target, span[id]:target {
+  background: #f8ddb9;
+  color: var(--noir);
+}
+
+/* Le premier lien apparaît au clavier et permet de sauter le sommaire. */
+.skip { position: fixed; left: .8rem; top: -5rem; z-index: 3; }
+.skip:focus { top: .5rem; padding: .4rem .8rem; background: white; }
+
+/* Bandeau fixe et couverture. La grille juxtapose le titre et la cassette. */
+.mast, .sleeve { background: var(--noir); color: var(--creme); }
+.mast {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #665649;
+}
+.mast-inner, .cover, #sommaire, footer {
+  width: 92%;
+  max-width: 76rem;
+  margin: 0 auto;
+}
+.mast-inner, .foot-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mast-inner { min-height: 3.5rem; }
+.mast a, .sleeve a, .atelier a { color: inherit; }
+.wordmark { font-size: 1.35rem; font-style: italic; text-decoration: none; }
+.mast-links { display: flex; gap: 1.2rem; font-size: .9rem; }
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5%;
+  padding: 2.6rem 0;
+}
+.period, .kicker, .face {
+  color: var(--cuivre-clair);
+  font: bold .8rem/1.4 Menlo, Consolas, monospace;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: .18em 0;
+  font-size: clamp(5rem, 10vw, 9rem);
+  letter-spacing: -.07em;
+  line-height: .85;
+}
+h1 em, .years { color: var(--cuivre-clair); }
+.years { font: 1.3rem Menlo, Consolas, monospace; }
+.dek { max-width: 31rem; }
+.sleeve .cover-button, .export {
+  display: inline-block;
+  margin: .6rem .5rem .4rem 0;
+  padding: .55rem 1.1rem;
+  background: var(--creme);
+  color: var(--noir);
+  text-decoration: none;
+  font-weight: bold;
+}
+.art img {
+  width: 100%;
+  aspect-ratio: 1.4;
+  object-fit: cover;
+  filter: sepia(.65) saturate(.85);
+}
+.art figcaption, .credit, .traces figcaption { margin-top: .5rem; font-size: .82rem; }
+
+/* Le sommaire est une vraie liste numérotée, même sans feuille de style. */
+#sommaire {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+#sommaire h2 { font-size: 2.2rem; }
+#sommaire ol {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .4rem 2rem;
+  margin: 0;
+  padding-left: 1.6rem;
+}
+#sommaire li { padding: .25rem 0; border-top: 1px solid var(--beige); }
+#sommaire li::marker { color: var(--cuivre); font-size: .8rem; }
+#sommaire a { color: var(--noir); }
+
+/* Une ligne de texte courte facilite la lecture des chapitres. */
+main { border-top: 1px solid var(--beige); }
+article { width: 90%; max-width: 62rem; margin: auto; }
+article > section { padding: 3.2rem 0; border-bottom: 1px solid var(--beige); }
+article > section > p, article > section > ul,
+article > section > h2, article > section > h3 { max-width: 44rem; margin-inline: auto; }
+#intro > p:first-of-type { font: 1.35rem/1.5 Georgia, serif; }
+.source-note { padding-left: .85rem; border-left: 2px solid var(--beige); font-size: .93rem; }
+.source-note, caption { color: #594c40; }
+.artist-list, .players { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
+.artist-list > div, .glossary > div { border-top: 1px solid var(--beige); padding: .9rem 0; }
+.artist-list dt { margin-bottom: .4rem; font-size: 1.5rem; }
+.glossary > div { display: grid; grid-template-columns: 1fr 3fr; gap: 1rem; }
+.glossary dt { font-weight: bold; }
+.glossary dfn { font-style: normal; }
+.retour { font-size: .85rem; white-space: nowrap; }
+
+/* L’atelier conserve les commandes audio du navigateur. */
+.atelier {
+  margin: 2rem 0 0;
+  padding: clamp(1.1rem, 4vw, 2.8rem);
+  background: var(--brun);
+  color: var(--creme);
+}
+.atelier h3 { margin: .35rem 0 1rem; font-size: clamp(1.7rem, 3vw, 2.7rem); }
+.atelier-intro { max-width: 42rem; }
+.players { margin: 1.4rem 0; row-gap: 1.4rem; }
+.players figure { min-width: 0; border-top: 1px solid var(--cuivre-clair); padding-top: .75rem; }
+.players strong { display: block; font: 1.4rem Georgia, serif; }
+.players audio { display: block; width: 100%; }
+.audio-file { display: inline-block; margin-top: .4rem; font-size: .87rem; }
+.traces img { width: 100%; }
+
+/* Les en-têtes du tableau indiquent ce que représentent ses dates et ses colonnes. */
+.table-scroll { overflow-x: auto; }
+table { width: 100%; margin-top: 1rem; border-collapse: collapse; font-size: .95rem; }
+caption { padding-bottom: .7rem; text-align: left; font-size: .88rem; }
+td, th { padding: .7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--beige); }
+thead { background: var(--beige); }
+#sources li { margin: .6rem 0; }
+#sources .export { color: var(--creme); background: var(--brun); }
+footer { padding: 1.2rem 0 2rem; }
+.foot-top { border-bottom: 1px solid var(--beige); }
+footer details { max-width: 46rem; }
+footer summary { padding: .8rem 0; cursor: pointer; font-weight: bold; }
+footer address { overflow-wrap: anywhere; }
+
+/* Sur téléphone, la cassette et les deux faces de l’atelier passent sous le texte. */
+@media (max-width: 700px) {
+  .cover, #sommaire, .players, .artist-list, .glossary > div { grid-template-columns: 1fr; }
+  .cover, #sommaire { gap: 1rem; }
+  .cover { padding: 1.4rem 0; }
+  .art img { aspect-ratio: 1.8; }
+  #sommaire ol { grid-template-columns: 1fr 1fr; }
+  .glossary > div { gap: .2rem; }
+  article > section { padding: 2rem 0; }
+  td, th { padding: .45rem .3rem; }
+}
