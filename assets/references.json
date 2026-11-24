@@ -1,0 +1,649 @@
+[
+  {
+    "id": "ref-meziane",
+    "type": "book",
+    "author": [
+      {
+        "family": "Meziane",
+        "given": "Belkacem"
+      }
+    ],
+    "title": "This Is How We Do It : 40 ans de R&B en 100 albums",
+    "publisher": "Le mot et le reste",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "URL": "https://lemotetlereste.com/musiques/thisishowwedoit/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    },
+    "ISBN": "9782361397807",
+    "language": "fr"
+  },
+  {
+    "id": "ref-george",
+    "type": "book",
+    "author": [
+      {
+        "family": "George",
+        "given": "Nelson"
+      }
+    ],
+    "title": "The Death of Rhythm & Blues",
+    "publisher": "Pantheon Books",
+    "issued": {
+      "date-parts": [
+        [
+          1988
+        ]
+      ]
+    },
+    "URL": "https://search.worldcat.org/fr/title/The-death-of-rhythm-and-blues/oclc/17413592",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    },
+    "ISBN": "9780394552385",
+    "language": "en"
+  },
+  {
+    "id": "ref-neal",
+    "type": "book",
+    "author": [
+      {
+        "family": "Neal",
+        "given": "Mark Anthony"
+      }
+    ],
+    "title": "Songs in the Key of Black Life: A Rhythm and Blues Nation",
+    "publisher": "Routledge",
+    "issued": {
+      "date-parts": [
+        [
+          2003
+        ]
+      ]
+    },
+    "URL": "https://scholars.duke.edu/publication/1012218",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    },
+    "language": "en"
+  },
+  {
+    "id": "ref-wicke",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Wicke",
+        "given": "Peter"
+      }
+    ],
+    "title": "Sound, dispositif and power: sound formations in pop music",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1080/20551940.2024.2379602",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    },
+    "container-title": "Sound Studies",
+    "volume": "10",
+    "issue": "2",
+    "page": "147–178",
+    "DOI": "10.1080/20551940.2024.2379602"
+  },
+  {
+    "id": "ref-rnb",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "Library of Congress"
+      }
+    ],
+    "title": "Rhythm and Blues",
+    "publisher": "Songs of America",
+    "URL": "https://www.loc.gov/collections/songs-of-america/articles-and-essays/musical-styles/popular-songs-of-the-day/rhythm-and-blues/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-ray",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Himes",
+        "given": "Geoffrey"
+      }
+    ],
+    "title": "Modern Sounds in Country and Western Music",
+    "publisher": "Library of Congress",
+    "URL": "https://memory.loc.gov/static/programs/national-recording-preservation-board/documents/Modern-Sounds-in-Country-and-Western-Music_Himes.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-respect",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Ochs",
+        "given": "Meredith"
+      }
+    ],
+    "title": "“Respect” — Aretha Franklin (1967)",
+    "publisher": "Library of Congress",
+    "URL": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Respect_Ochs.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-janet",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Dozier",
+        "given": "Ayanna"
+      }
+    ],
+    "title": "Janet Jackson’s Rhythm Nation 1814",
+    "publisher": "Library of Congress",
+    "URL": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Rhythm-Nation_Dozier.pdf",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-guy",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Frederick",
+        "given": "Brendan"
+      }
+    ],
+    "title": "Guy",
+    "publisher": "Pitchfork",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          4
+        ]
+      ]
+    },
+    "URL": "https://pitchfork.com/reviews/albums/guy/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-fantasy",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "REVOLT"
+      }
+    ],
+    "title": "Inside Mariah Carey and ODB’s “Fantasy (Remix)”",
+    "publisher": "REVOLT",
+    "URL": "https://www.revolt.tv/article/inside-mariah-carey-and-odb-fantasy-remix",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-tlc",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Presley",
+        "given": "Katie"
+      }
+    ],
+    "title": "1995 | Waterfalls by TLC",
+    "publisher": "PBS, American Experience",
+    "URL": "https://www.pbs.org/wgbh/americanexperience/features/songs-of-the-summer-1995/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-aaliyah",
+    "type": "webpage",
+    "author": [
+      {
+        "family": "Jones",
+        "given": "Rhian"
+      }
+    ],
+    "title": "Aaliyah: ‘Her sound is the R&B blueprint’",
+    "publisher": "The Guardian",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          13
+        ]
+      ]
+    },
+    "URL": "https://www.theguardian.com/music/2021/aug/13/aaliyah-her-sound-is-the-rb-blueprint",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-finesse",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "Recording Academy"
+      }
+    ],
+    "title": "Cardi B Joins Bruno Mars in New Video for “Finesse” Remix",
+    "publisher": "Grammy.com",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          5
+        ]
+      ]
+    },
+    "URL": "https://www.grammy.com/news/cardi-b-joins-bruno-mars-new-video-finesse-remix/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-michael",
+    "type": "song",
+    "author": [
+      {
+        "family": "Jackson",
+        "given": "Michael"
+      }
+    ],
+    "title": "Thriller",
+    "publisher": "Epic",
+    "issued": {
+      "date-parts": [
+        [
+          1982,
+          11,
+          30
+        ]
+      ]
+    },
+    "URL": "https://www.michaeljackson.com/albums/thriller/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-sade",
+    "type": "song",
+    "author": [
+      {
+        "literal": "Sade"
+      }
+    ],
+    "title": "Diamond Life",
+    "publisher": "Epic",
+    "issued": {
+      "date-parts": [
+        [
+          1984,
+          7,
+          16
+        ]
+      ]
+    },
+    "URL": "https://www.sade.com/music/diamond-life",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-guy-lp",
+    "type": "song",
+    "author": [
+      {
+        "literal": "Guy"
+      }
+    ],
+    "title": "Guy",
+    "publisher": "Uptown / MCA",
+    "issued": {
+      "date-parts": [
+        [
+          1988,
+          6,
+          13
+        ]
+      ]
+    },
+    "URL": "https://www.allmusic.com/album/release/guy-mr0000830922",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-janet-lp",
+    "type": "song",
+    "author": [
+      {
+        "family": "Jackson",
+        "given": "Janet"
+      }
+    ],
+    "title": "Janet Jackson’s Rhythm Nation 1814",
+    "publisher": "A&M",
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          9,
+          19
+        ]
+      ]
+    },
+    "URL": "https://music.apple.com/us/album/rhythm-nation-1814/1440838561",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-mary",
+    "type": "song",
+    "author": [
+      {
+        "family": "Blige",
+        "given": "Mary J."
+      }
+    ],
+    "title": "What’s the 411?",
+    "publisher": "Uptown / MCA",
+    "issued": {
+      "date-parts": [
+        [
+          1992,
+          7,
+          28
+        ]
+      ]
+    },
+    "URL": "https://music.apple.com/us/album/whats-the-411/1440817005",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-tlc-lp",
+    "type": "song",
+    "author": [
+      {
+        "literal": "TLC"
+      }
+    ],
+    "title": "CrazySexyCool",
+    "publisher": "LaFace / Arista",
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          11,
+          15
+        ]
+      ]
+    },
+    "URL": "https://musicbrainz.org/release-group/3d886c06-a4c7-3431-be87-2b2940f07acd",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-dangelo",
+    "type": "song",
+    "author": [
+      {
+        "literal": "D’Angelo"
+      }
+    ],
+    "title": "Brown Sugar",
+    "publisher": "EMI",
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          7,
+          4
+        ]
+      ]
+    },
+    "URL": "https://music.apple.com/us/album/brown-sugar/1440842296",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-oiam",
+    "type": "song",
+    "author": [
+      {
+        "literal": "Aaliyah"
+      }
+    ],
+    "title": "One in a Million",
+    "publisher": "Blackground / Atlantic",
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          8,
+          27
+        ]
+      ]
+    },
+    "URL": "https://musicbrainz.org/release-group/776a71f8-2071-3743-aab4-83436df1b366",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-whitney",
+    "type": "song",
+    "author": [
+      {
+        "family": "Houston",
+        "given": "Whitney"
+      }
+    ],
+    "title": "I Will Always Love You",
+    "publisher": "Arista",
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "URL": "https://www.whitneyhouston.com/video/i-will-always-love-you/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ref-boyz",
+    "type": "song",
+    "author": [
+      {
+        "literal": "Boyz II Men"
+      }
+    ],
+    "title": "End of the Road",
+    "publisher": "LaFace",
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "URL": "https://music.apple.com/us/song/258607696",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          18
+        ]
+      ]
+    }
+  }
+]
